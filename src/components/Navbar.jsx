@@ -82,6 +82,7 @@ export const Navbar = () => {
                       sessionStorage.removeItem("Message");
                       sessionStorage.removeItem("petMsg");
                       sessionStorage.removeItem("petId");
+                      navigate("/");
                     }}
                     to={"/"}
                     className="nav-link navlink "
